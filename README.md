@@ -2,7 +2,7 @@
 
 A modern and user-friendly **Flutter Expense Tracker** application built for the **CyphLab Flutter Developer Internship Practical Task**.
 
-The app helps users record, manage, search, filter, and analyze their daily expenses using a clean **Material 3 UI** with **Firebase Cloud Firestore** for persistent data storage.
+The app helps users record, manage, search, filter, and review their daily expenses using a clean **Material 3 UI** with **Firebase Cloud Firestore** for persistent data storage.
 
 ---
 
@@ -134,7 +134,7 @@ Make sure the following tools are installed:
 - Firebase CLI
 - FlutterFire CLI
 
-Check your Flutter installation:
+Check the Flutter environment:
 
 ```bash
 flutter doctor
@@ -173,13 +173,13 @@ Configure FlutterFire:
 flutterfire configure
 ```
 
-Select your Firebase project and Android platform when prompted.
+Select the Firebase project and Android platform when prompted.
 
 ---
 
 ### 5️⃣ Run the Application
 
-Check available devices:
+Check connected devices:
 
 ```bash
 flutter devices
@@ -223,7 +223,7 @@ Create a release APK using:
 flutter build apk --release
 ```
 
-The generated APK will be available at:
+The generated APK is available at:
 
 ```text
 build/app/outputs/flutter-apk/app-release.apk
@@ -231,16 +231,24 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ---
 
+## 📥 APK Download
+
+You can download the Android release APK here:
+
+[📦 Download Expense Tracker APK](https://drive.google.com/file/d/1dAuWwYyK53Uz7ANi04fQwdmpWhMLS0hw/view?usp=sharing)
+
+---
+
 ## 🎨 UI / UX Design
 
-The application uses a clean finance-inspired interface with:
+The application uses a clean finance-inspired design with:
 
 - 💙 Light-blue color palette
 - 🤍 White surface cards
 - 🔵 Soft blue accents
 - 🔲 Rounded cards and input fields
 - 🧭 Clear visual hierarchy
-- 🏷️ Category-specific icons and colors
+- 🏷️ Category-based icons and colors
 - 📊 Monthly summary dashboard
 - 🌙 Dark mode support
 - 📱 Responsive layouts
@@ -262,7 +270,7 @@ The dashboard provides:
 
 ---
 
-## 🔍 Search & Filters
+## 🔎 Search & Filters
 
 Users can search expenses by:
 
@@ -270,9 +278,9 @@ Users can search expenses by:
 - Category
 - Note
 
-Search is applied when the **Search button** or keyboard **Search action** is pressed.
+Search is applied only after pressing the **Search button** or the keyboard **Search action**.
 
-Users can also filter expenses using:
+Users can also filter expenses by:
 
 - Category
 - Today
@@ -292,22 +300,36 @@ The application supports complete CRUD functionality:
 
 ---
 
+## ✅ Validation & App States
+
+The app includes:
+
+- Required title validation
+- Valid amount validation
+- Loading indicators
+- Empty-state messages
+- Error-state messages
+- Save/update progress states
+- Delete confirmation dialog
+
+---
+
 ## 🧪 Testing Approach
 
-The project contains automated tests for:
+Automated tests are included for:
 
 - Expense model
 - Firestore service
-- Add expense form
-- Edit expense flow
-- Delete expense flow
+- Add Expense form
+- Edit Expense flow
+- Delete Expense flow
 - Dashboard
 - Monthly totals
 - Category filtering
 - Date filtering
 - Search behavior
 - History screen
-- UI validation
+- Form validation
 
 ---
 
@@ -318,12 +340,12 @@ AI assistance was used during development for:
 - Application planning
 - Flutter architecture guidance
 - UI/UX improvement ideas
-- Debugging
-- Test design
+- Debugging assistance
+- Automated test design
 - Code review
 - Documentation
 
-All AI-generated suggestions were reviewed and integrated into the final implementation.
+All AI-generated suggestions were reviewed and integrated into the project implementation.
 
 ---
 
@@ -353,23 +375,17 @@ Flutter Developer Internship Practical Task
 
 ## 🔗 Submission Links
 
-### GitHub Repository
-
-```text
-(https://github.com/pavani2118/expense_tracker)
-```
+### 💻 GitHub Repository
 
 ### 🎥 Demo Video
 
 ```text
-ADD_GOOGLE_DRIVE_OR_YOUTUBE_LINK_HERE
+ADD_GOOGLE_DRIVE_OR_YOUTUBE_DEMO_LINK_HERE
 ```
 
 ### 📦 APK Download
 
-```text
-ADD_APK_DOWNLOAD_LINK_HERE
-```
+[Download APK](https://drive.google.com/file/d/1dAuWwYyK53Uz7ANi04fQwdmpWhMLS0hw/view?usp=sharing)
 
 ---
 
