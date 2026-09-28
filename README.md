@@ -356,7 +356,7 @@ Flutter Developer Internship Practical Task
 ### GitHub Repository
 
 ```text
-ADD_GITHUB_REPOSITORY_LINK_HERE
+(https://github.com/pavani2118/expense_tracker)
 ```
 
 ### 🎥 Demo Video
