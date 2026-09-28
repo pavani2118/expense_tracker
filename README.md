@@ -395,4 +395,3 @@ This project was created for educational and internship evaluation purposes.
 
 ---
 
-⭐ If you find this project useful, feel free to give the repository a star!
