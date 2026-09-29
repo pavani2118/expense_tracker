@@ -73,7 +73,7 @@ The application supports the following expense categories:
 
 ## 📁 Project Structure
 
-```text
+```text id="v2a3n0"
 lib/
 ├── firebase_options.dart
 ├── main.dart
@@ -106,13 +106,13 @@ The application uses **Firebase Cloud Firestore** to store and manage expense da
 
 The main Firestore collection is:
 
-```text
+```text id="6cl98p"
 expenses
 ```
 
 Each document contains data similar to:
 
-```text
+```text id="lnucop"
 title: String
 amount: Number
 category: String
@@ -136,20 +136,20 @@ Make sure the following tools are installed:
 
 Check the Flutter environment:
 
-```bash
+```bash id="f064wu"
 flutter doctor
 ```
 
 ### 2️⃣ Clone the Repository
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+```bash id="09fwq5"
+git clone https://github.com/pavani2118/expense_tracker.git
 cd expense_tracker
 ```
 
 ### 3️⃣ Install Dependencies
 
-```bash
+```bash id="pvdxa7"
 flutter pub get
 ```
 
@@ -157,13 +157,13 @@ flutter pub get
 
 Login to Firebase:
 
-```bash
+```bash id="qa6p63"
 firebase login
 ```
 
 Configure FlutterFire:
 
-```bash
+```bash id="55yzu8"
 flutterfire configure
 ```
 
@@ -173,13 +173,13 @@ Select the Firebase project and Android platform when prompted.
 
 Check connected devices:
 
-```bash
+```bash id="5c7mil"
 flutter devices
 ```
 
 Run the app:
 
-```bash
+```bash id="e30c1p"
 flutter run
 ```
 
@@ -189,19 +189,19 @@ flutter run
 
 Run all automated tests:
 
-```bash
+```bash id="bcmgd9"
 flutter test
 ```
 
 Run static analysis:
 
-```bash
+```bash id="n58h7l"
 flutter analyze
 ```
 
 Format the project:
 
-```bash
+```bash id="ggt5ps"
 dart format lib test
 ```
 
@@ -211,13 +211,13 @@ dart format lib test
 
 Create a release APK using:
 
-```bash
+```bash id="7h2iql"
 flutter build apk --release
 ```
 
 The generated APK is available at:
 
-```text
+```text id="wbzx7g"
 build/app/outputs/flutter-apk/app-release.apk
 ```
 
@@ -366,6 +366,10 @@ Flutter Developer Internship Practical Task
 ---
 
 ## 🔗 Submission Links
+
+### 💻 GitHub Repository
+
+[View GitHub Repository](https://github.com/pavani2118/expense_tracker)
 
 ### 🎥 Demo Video
 
