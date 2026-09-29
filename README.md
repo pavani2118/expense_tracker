@@ -140,8 +140,6 @@ Check the Flutter environment:
 flutter doctor
 ```
 
----
-
 ### 2️⃣ Clone the Repository
 
 ```bash
@@ -149,15 +147,11 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 cd expense_tracker
 ```
 
----
-
 ### 3️⃣ Install Dependencies
 
 ```bash
 flutter pub get
 ```
-
----
 
 ### 4️⃣ Configure Firebase
 
@@ -174,8 +168,6 @@ flutterfire configure
 ```
 
 Select the Firebase project and Android platform when prompted.
-
----
 
 ### 5️⃣ Run the Application
 
@@ -375,23 +367,16 @@ Flutter Developer Internship Practical Task
 
 ## 🔗 Submission Links
 
-### 💻 GitHub Repository
-
 ### 🎥 Demo Video
 
-```text
-[Watch Demo Video](https://drive.google.com/file/d/10cVG8Ohm5vsElqbzJQNxSpmFDalA66OT/view?usp=sharing)
-```
+[▶️ Watch Demo Video](https://drive.google.com/file/d/10cVG8Ohm5vsElqbzJQNxSpmFDalA66OT/view?usp=sharing)
 
 ### 📦 APK Download
 
-[Download APK](https://drive.google.com/file/d/1dAuWwYyK53Uz7ANi04fQwdmpWhMLS0hw/view?usp=sharing)
+[📥 Download APK](https://drive.google.com/file/d/1dAuWwYyK53Uz7ANi04fQwdmpWhMLS0hw/view?usp=sharing)
 
 ---
 
 ## 📄 License
 
 This project was created for educational and internship evaluation purposes.
-
----
-
